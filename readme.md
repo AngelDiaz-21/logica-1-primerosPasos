@@ -55,6 +55,34 @@ También se vio que puede haber concatenación de strings así como una concaten
 
 Por último, en este ejercicio se vio la utilidad de usar variables y de la misma forma, podemos realizar operaciones usando variables y una de sus ventajas es que si en algún momento se optá por cambiar el contenido de la variable es que se realiza desde un solo lugar al contrario que haríamos sino usáramos variables. Un claro ejemplo es con una tabla de multiplicación, como se muestra en el código, se realiza la tabla del 8, pero si en dado caso quisiéramos saber la tabla de otro número solo bastaría con cambiar el contenido de la variable "numberMultiplicar".
 
+**02-calculo_consumo.html**
+
+Descripción del programa:
+
+1. Si un carro tiene un tanque de 40 litros. Usando gasolina y consumiendo todo el tanque se hace un recorrido de 480 kilómetros. ¿Cuál es la eficiencia del carro usando gasolina? o sea, ¿cuántos kilómetros recorre el carro por cada litro de gasolina? Para calcular la eficiencia: divide la distancia recorrida entre la cantidad de litros gastados. Imprime el valor utilizando document.write. Organiza las cuentas en variables.
+
+2. Por otro lado, si el carro usa alcohol como combustible, el mismo tanque de 40 litros hace un recorrido de 300 kilómetros. ¿Cuál es el la eficiencia del carro usando alcohol?
+
+![Archivo Reader.js](./image/archivo-calculo-consumo.png "Archivo Reader.js")
+
+Este progama está más enfocado en el uso de variables y poder realizar las operaciones que se necesitan.
+
+Se crean las variables requeridas que sería el tanque del carro, la distancia usando gasolina y la distancia usando gasolina, las cuáles se denominan:
+```
+let carroTanque       = 40;
+let distanciaGasolina = 480;
+let distanciaAlcohol  = 300;
+```
+
+Para saber el consumo de gasolina solo se divide 480 sobre 40 y para saber el consumo de alcohol se divide 300 entre sobre 40. Usando las variables quedaría de la siguiente manera:
+
+```
+let consumoGasolina = distanciaGasolina / carroTanque;
+let consumoAlcohol = distanciaAlcohol / carroTanque;
+```
+
+Por último, para mostrar un breve mensaje y los resultados en el HTML se hace uso del método `document.write`.
+
 ## ¿Que se aprendió a lo largo de este curso?
 * Conceptos básicos de HTML: Lenguaje de etiquetas.
 * Diferenciar HTML de JavaScript.
