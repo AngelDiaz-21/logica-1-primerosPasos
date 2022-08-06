@@ -1,19 +1,16 @@
 # Lógica de programación parte 1: Primeros pasos
 
-Para este curso se utilizó el lenguaje de programación JavaScript para comprender el uso de variables, para realizar ciertas funciones, operaciones que JavaScript puede realizar de manera dinámica y también con HTML para hacer toda la parte de formatación
+Para este curso se utilizó el lenguaje de programación JavaScript para comprender el uso de variables, para realizar ciertas funciones, operaciones que JavaScript puede realizar de manera dinámica y también con HTML para hacer toda la parte de formatación.
 
 ## Descripción de los ejercicios realizados
 
 **01-empezandoJS.html**
 
-| Curso | Link al repo |
-| ----- | ------------:|
-|![Archivo Reader.js](./image/archivo-empezando-js.png "Archivo Reader.js")|![Archivo Reader.js](./image/resultado-empezando-js.jpeg "Archivo Reader.js")|
+![Archivo Reader.js](./image/archivo-empezando-js.png "Archivo Reader.js")
 
 En este primer archivo se vieron bastantes cosas, tales como diferencia el código HTML con JavaScript, la creación de funciones con y sin parámetros, llamar una función dentro de otra función, entre otras cosas.
 
 Para empezar, para hacer uso de HTML se debe de hacer uso de etiquetas, por ejemplo, en el archivo se presenta lo siguiente:
-
 ```
 <h1>Lógica de programación</h1>
 <br>
@@ -24,6 +21,7 @@ Que es código HTML, lo que se puede visualizar al abrir el navegador y es está
 ```
 <script> </script>
 ```
+
 Como se mencionó anteriorment, JavaScript nos permité realizar diferentes cosas, por ejemplo, declarar variables:
 ```
 let age = 2022;
@@ -39,8 +37,8 @@ document.write("etiqueta")
 En el archivo se utilizó más para imprimir mensajes y hacer uso de la etiqueta `<br>` para hacer saltos de líneas, e incluso se creo una función denominada "saltarLinea" para este fin, como se muestra a continuación:
 ```
 function saltarlinea(){
-            document.write("<br><br><br>");
-        }
+    document.write("<br><br><br>");
+}
 ```
 
 Así mismo se implemento otra función con el fin que fuera más fácil de mostrar los mensajes en el HTML, la función que se creo se denomina "imprimir":
