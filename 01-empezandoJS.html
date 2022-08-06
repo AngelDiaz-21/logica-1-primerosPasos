@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lógica de programación</title>
+</head>
+
+<body>
+    <h1>Lógica de programación</h1>
+    <br>
+    Aquí puedes consultar mucha información <a href="google.com">Google</a>
+
+    <script>
+        function saltarlinea(){
+            document.write("<br><br>");
+        }
+
+        function imprimir (mensaje){
+            document.write(mensaje)
+            saltarlinea();
+        }
+
+        document.write("<h2>Aquí empieza el uso de código JavaScript</h2>")
+
+        imprimir("Esto es una concatenación de strings: " + "20" + "5")
+        imprimir("Esto es también es una concatenación, sin embargo, en esta ocasión en automático JS convierte el número a string")
+        document.write("20" + 5 + "<br>")
+        imprimir(5 + "20")
+        imprimir("Operaciones correctas")
+        document.write("La suma de las edades es: " + (20+20+20) + "<br>")
+        document.write("Yo nací en el año: ", 2022 - 23 + "<br>")
+        
+        let age = 2022;
+        imprimir("Mi edad es: " + (age - 1999) + " años")
+
+        document.write("En este ejemplo primero se realiza una suma de las variables y después se divide por el número de las variables para saber la media, pero el resultado será erroneo si en una variable optamos por usar un string, como se muestra a continuación: <br>");
+        document.write("<br> Variables: <br> let edad1 = 10 <br> let edad1 = '20' <br> let edad1 = 12 <br><br>");
+        let edad1 = 10;
+        let edad2 = "20";
+        let edad3 = 12;
+        document.write("La media de las edades es <br>");
+        imprimir( (edad1 + edad2 + edad3) / 3);
+        
+        let numberMultiplicar = 8;
+
+        document.write( numberMultiplicar + " por 1 es " + numberMultiplicar * 1 + "<br>");
+        document.write( numberMultiplicar + " por 2 es " + numberMultiplicar * 2 + "<br>");
+        document.write( numberMultiplicar + " por 3 es " + numberMultiplicar * 3 + "<br>");
+        document.write( numberMultiplicar + " por 4 es " + numberMultiplicar * 4 + "<br>");
+        document.write( numberMultiplicar + " por 5 es " + numberMultiplicar * 5 + "<br>");
+        document.write( numberMultiplicar + " por 6 es " + numberMultiplicar * 6 + "<br>");
+        document.write( numberMultiplicar + " por 7 es " + numberMultiplicar * 7 + "<br>");
+        document.write( numberMultiplicar + " por 8 es " + numberMultiplicar * 8 + "<br>");
+        document.write( numberMultiplicar + " por 9 es " + numberMultiplicar * 9 + "<br>");
+        document.write( numberMultiplicar + " por 10 es " + numberMultiplicar * 10 + "<br>");
+    </script>
+</body>
+</html>
