@@ -100,6 +100,23 @@ Después se crean  variables, la primera variable denominada "miEdad", que en es
 
 Por último, se hace uso de la función imprimir para mostrar en el HTML un mensaje y el resultado.
 
+**04-imc.html**
+
+![Archivo 04-imc.html](./image/archivo-imc.png "Archivo 04-imc.html")
+
+Descripción del programa:
+
+Este programa tiene como objetivo calcular el indice de masa corporal (IMC). Para el desarrollo se reutilizo la función saltarLinea e imprimir y se realizó una función nueva llamada calcularImc, como su nombre lo indica nos ayudará a calcular el IMC, la función recibe 2 parámetros: peso y altura.
+Adentro de la función se crea la variable "imc" a la cuál se le asigna el resultado de la operación "peso / (altura * altura)" y por último se hace uso de la palabra reservada "return" para devolver el resultado, es decir, para que se pueda utilizar.
+
+Se crean las variables "miPeso", "miAltura" e "imc", en la útima variable se manda a llamar a la función calcularImc y se envían como parámetros las variables anteriormente creadas.
+
+Luego se hace uso de la función imprimir para mostrar el resultado en el HTML.
+
+Sin embargo, otra forma de hacer el programa más interactivo es permitir que el usuario pueda ingresar sus datos como su nombre, peso y altura. Así que para esto se utilizó el método prompt que nos permitirá ingresar datos y guardarlos en sus respectivas variables "name", "pesoInforfmado" y "alturaInformado". Después, nuevamente se hace uso de la función calcularImc para obtener el resultado.
+
+Por último, podemos hacer uso de la condicional if, que dependiendo del resultado del IMC podremos envíar un mensaje, es decir, si su IMC es menor a 18.5 podremos mostrar el siguiente mensaje "IMC abajo de lo recomendado", si el IMC es mayor o igual a 18.5 y si el IMC es menor a 25 se mostrará "IMC está adentro del intervalo recomendado" y si el IMC es mayor o igual 25 se mostrará "IMC considerado como sobrepeso".
+
 ## ¿Que se aprendió a lo largo de este curso?
 * Conceptos básicos de HTML: Lenguaje de etiquetas.
 * Diferenciar HTML de JavaScript.
@@ -109,3 +126,4 @@ Por último, se hace uso de la función imprimir para mostrar en el HTML un mens
 * Diferentes tipos de datos en las variables y fórmulas.
 * Crear funciones y usar funciones con parámetros.
 * Produndizar en el retorno de funciones.
+* Conocer un poco del condicional if.
